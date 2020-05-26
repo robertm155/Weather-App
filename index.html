@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-center">Weather Dashboard</a>
+    </nav>
+
+    <div class="row mt-3">
+
+        <div class="col-sm-2"></div>
+
+        <ul class="list-group col-sm-2 city-list">
+            <div class="input-group mb-1">
+                <input type="text" class="form-control user-input">
+                <div class="input-group-append">
+                  <span class="input-group-text searchbar">Search</span>
+                </div>
+            </div>
+        </ul>
+
+        <div class="card col-sm-6" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title city">City</h5>
+              <p class="card-text temp">Temperature:</p>
+              <p class="card-text humidity">Humidity:</p>
+              <p class="card-text wind">Windspeed:</p>
+              <p class="card-text UV">UV Index:</p>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4"></div>
+
+        <div class="card text-white bg-primary mb-3 mt-2 mr-3" style="max-width: 18rem;">
+            <div class="card-header date-1">YYYY/MM/DD</div>
+            <div class="card-body">
+              <img id="icon1" src="">
+              <p class="card-text f-temp-1">Temp:</p>
+              <p class="card-text f-hum-1">Humidity:</p>
+            </div>
+        </div>
+
+        <div class="card text-white bg-primary mb-3 mt-2 mr-3" style="max-width: 18rem;">
+            <div class="card-header date-2">YYYY/MM/DD</div>
+            <div class="card-body">
+              <img id="icon2" src="">
+              <p class="card-text f-temp-2">Temp:</p>
+              <p class="card-text f-hum-2">Humidity:</p>
+            </div>
+        </div>
+
+        <div class="card text-white bg-primary mb-3 mt-2 mr-3" style="max-width: 18rem;">
+            <div class="card-header date-3">YYYY/MM/DD</div>
+            <div class="card-body">
+              <img id="icon3" src="">
+              <p class="card-text f-temp-3">Temp:</p>
+              <p class="card-text f-hum-3">Humidity:</p>
+            </div>
+        </div>
+
+        <div class="card text-white bg-primary mb-3 mt-2 mr-3" style="max-width: 18rem;">
+            <div class="card-header date-4">YYYY/MM/DD</div>
+            <div class="card-body">
+              <img id="icon4" src="">
+              <p class="card-text f-temp-4">Temp:</p>
+              <p class="card-text f-hum-4">Humidity:</p>
+            </div>
+        </div>
+
+        <div class="card text-white bg-primary mb-3 mt-2 mr-3" style="max-width: 18rem;">
+            <div class="card-header date-5">YYYY/MM/DD</div>
+            <div class="card-body">
+              <img id="icon5" src="">
+              <p class="card-text f-temp-5">Temp:</p>
+              <p class="card-text f-hum-5">Humidity:</p>
+            </div>
+        </div>
+
+        
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
